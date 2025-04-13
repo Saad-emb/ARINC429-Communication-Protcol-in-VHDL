@@ -12,9 +12,9 @@ entity a429_tx is
 	);
 	port (
 	clk : in std_logic;
-    reset : in std_logic;
+    	reset : in std_logic;
 	start : in std_logic;
-    data_in : in std_logic_vector(18 downto 0);
+   	 data_in : in std_logic_vector(18 downto 0);
 	write_enable : in std_logic;  -- Signal to write to FIFO
 	tx_high : out std_logic;
 	tx_low : out std_logic);
